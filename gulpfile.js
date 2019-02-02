@@ -29,7 +29,7 @@ gulp.task('sass', function () {
   return gulp.src('./scss/main.scss')
       .pipe(sourcemaps.init())
       .pipe(sass({
-        outputStyle : "compressed" //compact, compressed, expanded
+        outputStyle : "compressed"
       }).on('error', showError))
       .pipe(autoprefixer({
         browsers: ['last 2 versions'],
