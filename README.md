@@ -6,7 +6,7 @@ To start development follow this instruction:
 
 
 ## Gulp usage
-Avaliable commends for you to type in console:
+Available commends for you to type in console:
 
 `gulp` or `gulp serve`  - this will run gulp in browserSync mode, that means gulp will start serwer on your `localhost` and refreash it for you everytime you change `scss`, `js` or `html` file. Using this command will do all the work for you :)
 
